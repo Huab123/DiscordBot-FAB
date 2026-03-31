@@ -55,7 +55,6 @@ async def on_ready() -> None:
     print(f'{client.user} is now running!')
     client.loop.create_task(getNewVidLoop())
 
-git
 # Incoming messages
 @client.event
 async def on_message(message: Message) -> None:
